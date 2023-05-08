@@ -60,7 +60,10 @@ You need to act as an expert in the field of computer software. You can clearly 
   
 # 代码设计  
 - controller层里面两个方法接口，一个是获取网页文章内容，一个是调用chatgpt  
-- service层进行文章内容调用chatgpt接口获取返回值  
+- service层进行文章内容调用chatgpt接口获取返回值
+- bean层用于创建各类型pojo
+- util层为工具类
+- test层用于测试运行,运行时需要输入自己的apikey  
   
   
   
