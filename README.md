@@ -41,6 +41,7 @@ You need to act as an expert in the field of computer software. You can clearly 
 
 ### 3. 得到文章标签  
 得到了这样的回答：计算机基础/网络协议/RPC
+![[Pasted image 20230508231143.png]]
   
 ### 4.处理文章标签  
 得到了标签分级后，那么给文章打标签就很方便了，就有很多方式了，给文章数据表加个tag的事情。这样就可以在自己的网站上得到分类详实的文章了  
@@ -60,10 +61,7 @@ You need to act as an expert in the field of computer software. You can clearly 
   
 # 代码设计  
 - controller层里面两个方法接口，一个是获取网页文章内容，一个是调用chatgpt  
-- service层进行文章内容调用chatgpt接口获取返回值
-- bean层用于创建各类型pojo
-- util层为工具类
-- test层用于测试运行,运行时需要输入自己的apikey  
+- service层进行文章内容调用chatgpt接口获取返回值  
   
   
   
